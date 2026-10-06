@@ -1,0 +1,63 @@
+mode = "dark"
+
+# DedSec — Watch Dogs 2 hacker collective
+# Yellow #FDF001 · Cyan #00AEEF · Glitch pink #EC008C · Terminal black
+accent = "#FDF001"
+selection = "#1f1f14"
+muted = "#6e6e6e"
+
+# ── surface ladder ────────────────────────────────────────────────────────────
+background = "#0a0a0a"
+dark_background = "#050505"
+darker_background = "#000000"
+lighter_background = "#161616"
+
+# ── text ladder ───────────────────────────────────────────────────────────────
+foreground = "#f2f2f2"
+dark_foreground = "#6e6e6e"
+light_foreground = "#c8c8c8"
+bright_foreground = "#ffffff"
+
+# ── cursor / selection ────────────────────────────────────────────────────────
+cursor = "#FDF001"
+selection_foreground = "#0a0a0a"
+selection_background = "#FDF001"
+
+# ── hyprland active border: DedSec yellow → cyan glitch ───────────────────────
+hyprland_active_border = "rgba(FDF001ee) rgba(00AEEFee) 45deg"
+hyprland_inactive_border = "rgba(16161699)"
+
+# ── 16-color palette ──────────────────────────────────────────────────────────
+color0 = "#000000"
+color1 = "#EC008C"
+color2 = "#FDF001"
+color3 = "#ffcc00"
+color4 = "#00AEEF"
+color5 = "#EC008C"
+color6 = "#00AEEF"
+color7 = "#f2f2f2"
+color8 = "#6e6e6e"
+color9 = "#ff33a8"
+color10 = "#fff44f"
+color11 = "#ffe066"
+color12 = "#33c4ff"
+color13 = "#ff4db8"
+color14 = "#5cd6ff"
+color15 = "#ffffff"
+
+# ── named synonyms (Omarchy templates) ────────────────────────────────────────
+red = "#EC008C"
+yellow = "#FDF001"
+orange = "#ff9900"
+green = "#7dff3a"
+cyan = "#00AEEF"
+blue = "#00AEEF"
+magenta = "#EC008C"
+brown = "#8a6b46"
+
+bright_red = "#ff33a8"
+bright_yellow = "#fff44f"
+bright_green = "#a6ff6a"
+bright_cyan = "#5cd6ff"
+bright_blue = "#33c4ff"
+bright_magenta = "#ff4db8"

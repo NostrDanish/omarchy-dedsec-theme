@@ -1,0 +1,133 @@
+# DedSec shell surfaces — Watch Dogs 2 yellow / cyan / glitch pink.
+
+[bar]
+background       = "#0a0a0a"
+background-alpha = 0.82
+text             = "#f2f2f2"
+active           = "#FDF001"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
+
+[hyprland]
+active-border            = "rgba(FDF001ee) rgba(00AEEFee) 45deg"
+active-border-foreground = "rgba(FDF001ee) rgba(00AEEFee) 45deg"
+
+[controls]
+normal-color        = "#f2f2f2"
+normal-fill-alpha   = 0.05
+normal-border       = "#FDF001"
+normal-border-width = 1
+normal-border-alpha = 0.35
+
+hover-cursor-color        = "#f2f2f2"
+hover-cursor-fill-alpha   = 0.10
+hover-cursor-border       = "#00AEEF"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.55
+
+focus-color        = "#f2f2f2"
+focus-fill-alpha   = 0.10
+focus-border       = "#00AEEF"
+focus-border-width = 1
+focus-border-alpha = 0.55
+
+selected-color        = "#0a0a0a"
+selected-fill-alpha   = 1.0
+selected-border       = "#FDF001"
+selected-border-width = 0
+selected-border-alpha = 1.0
+
+pressed-fill-alpha   = 0.22
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background       = "#0a0a0a"
+background-alpha = 0.94
+text             = "#f2f2f2"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+
+[tooltip]
+background       = "#0a0a0a"
+background-alpha = 0.97
+text             = "#f2f2f2"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 1.0
+
+[notifications]
+background       = "#0a0a0a"
+background-alpha = 0.94
+text             = "#f2f2f2"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+countdown        = "#FDF001"
+
+[launcher]
+background                = "#0a0a0a"
+background-alpha          = 0.95
+text                      = "#f2f2f2"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 1.0
+scrim                     = "#0a0a0a"
+scrim-alpha               = 0.55
+selected-background       = "#FDF001"
+selected-background-alpha = 0.14
+selected-text             = "#FDF001"
+selected-border           = "hyprland.active-border-foreground"
+selected-border-alpha     = 0.35
+
+[menu]
+background                = "#0a0a0a"
+background-alpha          = 0.94
+text                      = "#f2f2f2"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 1.0
+scrim                     = "#0a0a0a"
+scrim-alpha               = 0.55
+selected-background       = "#FDF001"
+selected-background-alpha = 0.12
+selected-text             = "#FDF001"
+selected-border           = "hyprland.active-border-foreground"
+selected-border-alpha     = 0.35
+
+[polkit]
+background       = "#0a0a0a"
+background-alpha = 1.0
+text             = "#f2f2f2"
+text-error       = "#EC008C"
+border           = "hyprland.active-border"
+border-error     = "#EC008C"
+border-alpha     = 1.0
+scrim            = "#0a0a0a"
+scrim-alpha      = 0.55
+accent           = "#FDF001"
+
+[lock]
+background       = "#0a0a0a"
+background-alpha = 0.85
+text             = "#f2f2f2"
+placeholder      = "#6e6e6e"
+text-error       = "#EC008C"
+border           = "hyprland.active-border"
+border-active    = "hyprland.active-border"
+border-error     = "#EC008C"
+border-alpha     = 1.0
+selection        = "#FDF001"
+selection-alpha  = 0.45
+
+[image-picker]
+scrim                   = "#0a0a0a"
+scrim-alpha             = 0.55
+text                    = "#f2f2f2"
+selected-border         = "#FDF001"
+selected-border-alpha   = 1.0
+unselected-border       = "#f2f2f2"
+unselected-border-alpha = 0.28
